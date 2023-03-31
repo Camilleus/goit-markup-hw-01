@@ -1,2 +1,2 @@
 Hello Everyone
-Its my first homework from GoIT :D
+Its my first homework for GoIT :D
