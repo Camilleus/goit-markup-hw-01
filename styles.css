@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     background-color: var(--light-color);
     padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 nav {
@@ -59,10 +59,12 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+        align-items: center;
 }
 
 section {
     margin: 40px 0;
+    color:#212121
 }
 
 section h1 {
@@ -155,17 +157,6 @@ main h1+a:hover {
 
 .card img {
     margin-bottom: 10px;
-}
-
-.card figcaption:first-of-type {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.card figcaption:last-of-type {
-    font-size: 1.2rem;
-    color: var(--secondary-color);
 }
 
 /* Style
