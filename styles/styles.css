@@ -121,7 +121,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #2196F3;
-
+section {
 /* Bg of section 1 */
 position: absolute;
 width: 1600px;
@@ -130,9 +130,9 @@ left: 0px;
 top: 80px;
 
 background: #2F303A;
+}
 
-
-/* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
+/* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */    
 
 position: absolute;
 width: 696px;
