@@ -16,313 +16,46 @@ html {
 /* Style the header */
 header {
     display: flex;
-    align-items: center;
-    place-items: ;
-    justify-content: space-between;
-    background-color: var(--light-color);
-    padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    align-items:center;
     position: absolute;
     width: 1600px;
     height: 80px;
-    left: 0px;
-    top: 0px;
     background: #FFFFFF;
 }
 
-/* WebStudio */
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-
-letter-spacing: 0.03em;
-
-color: #2196F3;
-
-
-/* Aktywny link */
-
-position: absolute;
-width: 53px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-/* Agencja */
-
-position: absolute;
-width: 53px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-
-/* Portfolio */
-position: absolute;
-width: 58px;
-height: 16px;
-left: 552px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-
-/* Kontakt */
-position: absolute;
-width: 51px;
-height: 16px;
-left: 674px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-
-/* info@devstudio.com */
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-section {
-/* Bg of section 1 */
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-
-background: #2F303A;
-}
-
-/* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */    
-
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-
-/* Zamów usługe */
-
-position: absolute;
-width: 117px;
-height: 30px;
-left: 742px;
-top: 440px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
-
-/* bg of Zamów usługe button*/
-position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-
-/* bg of section 2*/
-background: #E5E5E5;
-
-nav {
-    display: flex;
-    gap: 20px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    flex: 1;
-    margin: 10px;
-}
-
-nav a {
-    color: var(--dark-color);
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: color 0.2s ease-in-out;
-}
-
-nav a:hover {
-    color: var(--primary-color);
-}
-
-nav a:last-child {
-    margin-left: auto;
-}
-
-/* Style the main section */
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-        align-items: center;
+    position: absolute;
+    top: 80px
 }
 
 section {
-    margin: 40px 0;
-    color:#212121
+    top: 80px;
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
 }
 
-section h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-bottom: 20px;
+section.h1 {
+    align-self: center;
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+    font: Roboto;
+    weight: 900;
+    size: 44px;
+    line height: 60px;
 }
 
-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    text-align: center;
+button {
+    align-self: center;
 }
 
-section a {
-    display: block;
-    margin-bottom: 20px;
-    color: var(--dark-color);
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
+footer {
+    bottom: auto;
+    position: absolute;
 }
 
-section a:hover {
-    color: var(--primary-color);
+ul {
+    list-style-type: none;
 }
-
-section img {
-    display: block;
-    margin: 20px 0;
-    max-width: 100%;
-}
-
-/* Style the team section */
-main h1+a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: var(--light-color);
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.2s ease-in-out;
-}
-
-main h2+a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: var(--light-color);
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.2s ease-in-out;
-}
-
-main h1+a:hover {
-    background-color: darken(var(--primary-color), 10%);
-}
-
-.card {
-    display: inline-block;
-    flex-direction: column;
-    vertical-align: top;
-    margin-right: 10px;
-    /* add some spacing between the cards */
-    margin: 10px;
-    padding: 10px;
-    background-color: var(--light-color);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: box-shadow 0.2s ease-in-out;
-}
-
-.card-text {
-    display: inline-block;
-    text-align: center;
-}
-
-.card:hover {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.card img {
-    margin-bottom: 10px;
-}
-
-/* Style
