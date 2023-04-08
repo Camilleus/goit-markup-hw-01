@@ -14,9 +14,7 @@ html {
 }
 
 /* Style the header */
-header {
-    display: flex;
-    align-items:center;
+header {    
     position: absolute;
     width: 1600px;
     height: 80px;
@@ -42,9 +40,6 @@ section.h1 {
     top: 280px;
     left: 452px;
     font: Roboto;
-    weight: 900;
-    size: 44px;
-    line height: 60px;
 }
 
 button {
