@@ -13,14 +13,6 @@ html {
     --dark-color: #212121;
 }
 
-/* Style the header */
-header {    
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    background: #FFFFFF;
-}
-
 main {
     position: absolute;
     top: 80px
@@ -47,7 +39,7 @@ button {
 }
 
 footer {
-    bottom: auto;
+    top: 3500px;
     position: absolute;
 }
 
