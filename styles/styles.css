@@ -8,13 +8,8 @@ body {
 header {
     background-color: #fff;
     padding: 20px;
-}
-
-/* Logo */
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #2196F3;
+    top: 80px;
+    align-items: center;
 }
 
 /* Navigation */
@@ -63,27 +58,10 @@ nav a:hover {
     margin-top: 20px;
 }
 
-/* Call-to-action button */
-.cta {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2196F3;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 30px;
-}
-
-.cta:hover {
-    background-color: #1565C0;
-}
-
 /* Footer */
 footer {
     background-color: #2F303A;
     color: #fff;
-    padding: 20px;
     text-align: left;
 }
 
@@ -98,9 +76,6 @@ footer a {
     font-weight: bold;
 }
 
-footer a:hover {
-    color: #2196F3;
-}
 ul {
     list-style-type: none;
 }
